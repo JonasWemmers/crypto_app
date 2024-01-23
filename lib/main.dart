@@ -1,4 +1,6 @@
+import 'package:crypto_app/pages/onboarding/onboarding_3.dart';
 import 'package:crypto_app/pages/screens/sign_up/enter_code.dart';
+import 'package:crypto_app/pages/screens/sign_up/register_final.dart';
 import 'package:crypto_app/pages/screens/sign_up/register_with_mobile.dart';
 import 'package:crypto_app/pages/screens/sign_up/sign_up.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +15,7 @@ class CryptoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: EnterYourCode(),
+      home: RegisterFinal(),
     );
   }
 }
